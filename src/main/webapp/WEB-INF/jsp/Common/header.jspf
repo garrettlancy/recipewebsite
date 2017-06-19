@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title><c:out value="${pageTitle}"/></title>
+    <c:url var="cssUrl" value="/css/site.css"/>
+    <link rel="stylesheet" href="${cssUrl}" />
+</head>
+<body>
+    <header>
+        <h1>MVC Exercises - Views Part <c:out value="${pageTitle}"/></h1>        
+    </header>
+    <nav>
+        <ul>
+            <li><a href="<c:url value ="/recipe/tiles"/>">Tile Layout</a></li>
+            <li><a href="<c:url value="/recipe/table"/>">Table Layout</a></li>
+        </ul>
+        
+    </nav>
+    <section id="main-content">
+    
+    <h1 id="page-Title">Recipes</h1>

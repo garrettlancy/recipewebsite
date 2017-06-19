@@ -1,0 +1,188 @@
+body {
+	width: 150%;
+	background-color: #212121;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+		sans-serif;
+}
+
+body, header, nav {
+	margin: 0px;
+}
+
+header {
+	background-color: #0099CC;
+	color: white;
+	padding: 10px 10px;
+}
+
+nav {
+	background-color: #8DC63F;
+	margin-bottom: 20px;
+	padding: 5px;
+	height: 50px;
+}
+
+nav ul {
+	float: left;
+}
+
+nav li {
+	list-style-type: none;
+	color: white;
+	margin-left: 25px;
+	margin-bottom: 10px;
+	font-size: 1.3em;
+	float: left;
+}
+
+nav li a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	text-decoration: underline;
+}
+
+section {
+	clear: both;
+	display: block;
+	width: 80%;
+	margin: 20px auto;
+	vertical-align: top;
+	text-align: center;
+	min-height: 450px;
+	background-color: #FFF;
+	border-radius: 7px;
+}
+
+#row-data img {
+	width: 200px;
+}
+
+#row-data {
+	font-size: 20px;
+	font-weight: 200;
+}
+
+.imageTable {
+	width: 200px;
+}
+
+.imageTile {
+	width: 400px;
+}
+
+.even {
+	background-color: lightgrey;
+}
+
+.odd {
+	
+}
+
+h1 {
+	font-size: 36px;
+	font-weight: 600;
+}
+
+table {
+	padding-left: 10px;
+	padding-right: 100px;
+	display: flex;
+	justify-content: center;
+	justify-content: space-between;
+}
+
+td.column#row-data {
+	width: 500px;
+}
+
+#row-name {
+	font-size: 20px;
+	font-weight: 600;
+	background-color: white;
+	width: 200px;
+}
+
+.tile {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	padding: 30px;
+}
+
+.box {
+	display: flex;
+	flex-direction: column;
+	background-color: floralWhite;
+	width: 400px;
+}
+
+.rating img {
+	width: 150px;
+}
+
+div.rating {
+	padding-right: 75px;
+	text-align: left;
+}
+
+div.ingredients {
+	padding-left: 75px;
+	text-align: right;
+	padding-right: 10px;
+}
+
+div.rating, div.ingredients {
+	display: inline;
+}
+
+div.boldName {
+	font-weight: 600px;
+	font-size: 28px;
+	padding-top: 10px;
+	padding-bottom: 75px;
+	padding-left: 10px;
+	text-align: left;
+}
+
+div.info {
+	display: flex;
+	height: 250px;
+}
+ 
+#cooktime {
+	padding-top: 20px;
+}
+
+#description {
+	padding-top: 20px;
+	width: 60%;
+}
+
+
+h3 {
+	font-weight: normal;
+	font-size: 25px;
+	text-align: left;
+}
+
+.text {
+	text-align: left;
+	padding-left: 20px;
+	display: inline;
+	font-size: 18px;
+	font-weight: 100px;
+}
+
+
+li {
+	text-align: left;
+	font-sie: 18px;
+}
+
+div.details {
+	padding: 20px;
+}
